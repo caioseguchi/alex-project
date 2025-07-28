@@ -401,11 +401,130 @@
       [cardColor]="'orange'"
     >
       <ol>
-        <li>Write your first draft...</li>
-        <li>Check off each item...</li>
-        <li>Ready to copy into resume</li>
-        <li>Hit "Reset" and write next</li>
+        <li>
+          Write your first draft in the box below - use the reference as needed
+        </li>
+        <li>
+          Go through the checklist and check off each item as you refine your
+          bullet
+        </li>
+        <li>
+          When all item are checked, your bullets is ready to copy into your
+          resume
+        </li>
+        <li>Hit "Reset" and start yout next bullet point</li>
       </ol>
+    </app-card-box>
+  </section>
+
+  <section class="m-3">
+    <div class="container">
+      <!-- Title -->
+      <div class="header">
+        <span class="emoji">📘</span>
+        <span class="title">Ultimate Bullet Writing Reference</span>
+      </div>
+
+      <!-- Bullet Input -->
+      <div class="section">
+        <label class="section-title">✍️ Write Your Bullet</label>
+        <textarea
+          class="bullet-input"
+          placeholder="Example: Led cross-functional team in redesigning core product features..."
+        ></textarea>
+        <p class="note">
+          Once you're done, run through the checklist below. Try to hit all 6.
+        </p>
+      </div>
+
+      <!-- Checklist Title -->
+      <div class="checklist-header">
+        <h2>Bullet Final Pass Checklist</h2>
+        <button class="reset-btn">🔄 Reset</button>
+      </div>
+      <p class="progress">0% Complete</p>
+
+      <!-- Checklist Items -->
+      <ul class="checklist">
+        <li>
+          <input type="checkbox" />
+          <div>
+            <p class="item-title">
+              Starts with a strong, outcome-oriented action verb
+            </p>
+            <p class="item-detail">
+              Use powerful verbs like Led, Delivered, Resolved, Built, Scaled,
+              Owned
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <input type="checkbox" />
+          <div>
+            <p class="item-title">Clearly states what I did (the action)</p>
+            <p class="item-detail">
+              Be specific about your role and contribution
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <input type="checkbox" />
+          <div>
+            <p class="item-title">Clearly shows what I changed (the impact)</p>
+            <p class="item-detail">
+              Quantify your achievements with metrics or percentages
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <input type="checkbox" />
+          <div>
+            <p class="item-title">Relevant and tailored to the target role</p>
+            <p class="item-detail">
+              Focus on skills and achievements that matter for the job
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <input type="checkbox" />
+          <div>
+            <p class="item-title">Contains specifics</p>
+            <p class="item-detail">
+              Use concrete details instead of vague terms e.g. “using modern
+              technologies” -> “using React, Next.js, and Tailwind CSS”
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <input type="checkbox" />
+          <div>
+            <p class="item-title">Strength-based and concise</p>
+            <p class="item-detail">Sell yourself with conviction and clarity</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <app-card-box
+      [cardBoxTitle]="'Next: Master Job Applications'"
+      [cardColor]="'purple'"
+    >
+      <p>
+        Now that you've mastered bullet writing, let's put your shiny new resume
+        to work. You'll learn how to:
+      </p>
+      <ul>
+        <li>Find and target the right opportunities</li>
+        <li>Navigate the application process with confidence</li>
+        <li>Track your applications with ease</li>
+      </ul>
     </app-card-box>
   </section>
 </app-page-layout>
