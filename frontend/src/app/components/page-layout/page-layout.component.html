@@ -1,0 +1,15 @@
+<main class="page-layout">
+  <!-- Head page -->
+  <div class="head-page">
+    <a routerLink="/" class="back-link"><b>← Back to System</b></a>
+
+    <h1 class="title">{{ title }}</h1>
+    <p class="subtitle">{{ subtitle }}</p>
+  </div>
+
+  <!-- Dynamic Content -->
+  <ng-content></ng-content>
+
+  <!-- Next link (optional) -->
+  <a [routerLink]="nextLink" class="next-link"> Next → </a>
+</main>

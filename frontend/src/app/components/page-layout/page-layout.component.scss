@@ -1,0 +1,36 @@
+@import "../../../styles/variables.scss";
+
+.page-layout {
+  max-width: 800px;
+  margin: auto;
+  background-color: #f9fafb;
+  padding: 32px;
+
+  .head-page {
+    margin-top: 24px;
+  }
+
+  .back-link {
+    display: block;
+    color: #6b7280;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .subtitle {
+    color: #4b5563;
+    margin-bottom: 2rem;
+  }
+
+  .next-link {
+    color: #f97316;
+    font-weight: 600;
+    text-decoration: none;
+  }
+}

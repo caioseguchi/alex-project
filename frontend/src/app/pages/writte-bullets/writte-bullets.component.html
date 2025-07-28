@@ -1,0 +1,318 @@
+<app-page-layout
+  [title]="'Bullet Writing Framework'"
+  [subtitle]="'Your resume isn`t a biography — its a sales page.'"
+  [nextLink]="''"
+>
+  <!--Introduction-->
+  <section>
+    <app-quote-box [author]="'Jim'">
+      <em>"The frame is more important than the picture."</em><br /><br />
+      In 2019, I wrote about what I did, downplayed myself, and hoped the reader
+      would "get it". I didn't get a single call back. 2 years later, you
+      wouldn't even recognize the bullets that were built off the
+      <strong>EXACT SAME EXPERIENCE</strong>.<br /><br />
+      You don't need more or better experience. You just need to frame what you
+      have in the perfect way.<br /><br />
+      In this module we're going to be doing just that."
+    </app-quote-box>
+
+    <app-card-box>
+      <em>
+        Did you know? Apple designs and tests its product boxes to open at just
+        the right speed? The highest market cap company in the world. Hundreds
+        of millions poured into researching and designing packaging that is
+        simply thrown away. Framing is everything.
+      </em>
+    </app-card-box>
+
+    <app-card-box [cardBoxTitle]="'🧠 Mindset Shift'" [cardColor]="'purple'">
+      Your resume isn't about what you did — it's about what changed because of
+      you. That's what gets hiring managers saying
+      <em>"I want this person"</em>.
+    </app-card-box>
+  </section>
+
+  <!--Core Principles That Actually Work-->
+  <section>
+    <!--Section Title-->
+    <h2 class="section-title">💡 Core Principles That Actually Work</h2>
+
+    <!--Card 1-->
+    <app-card-box
+      [cardBoxTitle]="'Action → Impact Format'"
+      [cardColor]="'white'"
+      [cardTextColor]="'txt-black'"
+    >
+      Start with what you did. End with what changed.
+      <blockquote>
+        "Refactored backend API, cutting load time by 40%"
+      </blockquote>
+      <div class="hover-box" title="hover to read">
+        <span class="hover-icon">🔍</span>
+        <span class="hover-text">My Breakthrough Moment</span>
+        <span class="hover-label">(hover to read)</span>
+      </div>
+    </app-card-box>
+
+    <!--Card 2-->
+    <app-card-box
+      [cardBoxTitle]="'Quantify Everything'"
+      [cardColor]="'white'"
+      [cardTextColor]="'txt-black'"
+    >
+      Numbers cut through the noise. Use exact figures or smart estimates.
+      <blockquote>
+        "Increased user retention by 35% through A/B testing, increasing monthly
+        subscription revenue by $50K+"
+      </blockquote>
+    </app-card-box>
+
+    <!--Card 3-->
+    <app-card-box
+      [cardBoxTitle]="'Strongest First'"
+      [cardColor]="'white'"
+      [cardTextColor]="'txt-black'"
+    >
+      Hook the reader. You only get a few seconds. Your most impressive bullets
+      go first — always.
+    </app-card-box>
+
+    <!--Card 4-->
+    <app-card-box
+      [cardBoxTitle]="'Active Language'"
+      [cardColor]="'white'"
+      [cardTextColor]="'txt-black'"
+    >
+      Every bullet start with a pawerfull action verb.
+      <blockquote>"Spearheaded, designed, streamlined, etc."</blockquote>
+    </app-card-box>
+
+    <!--Card 5-->
+    <app-card-box
+      [cardBoxTitle]="'Sell Yourself with Conviction'"
+      [cardColor]="'white'"
+      [cardTextColor]="'txt-black'"
+    >
+      Your resume is not the place to be humble. Be factual, but own your wins
+      fully.
+      <div class="examples-box">
+        ✅ <strong>"Spearheaded"</strong> > ⚠️
+        <strong>"Contributed to"</strong> > ❌ <strong>"Helped with"</strong>
+      </div>
+    </app-card-box>
+  </section>
+
+  <!--Section Personal history-->
+  <section>
+    <app-card-box [cardBoxTitle]="'😅 A personal Story'" [cardColor]="'red'">
+      <p>
+        A real bullet from my first resume:
+        <br />
+        <q>
+          "Utilized Java to create a fully functioning connect 4 game with game
+          board
+          <strong>(did not code the board myself)</strong>."
+        </q>
+      </p>
+      <p>
+        I actively downplayed my work. Own your achievements with confidence.
+      </p>
+    </app-card-box>
+  </section>
+
+  <!--Section Before and After-->
+  <section>
+    <h2 class="section-title">💡 Before & After Examples</h2>
+    <app-card-box [cardColor]="'white'">
+      <!--Carousel-->
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <!--Example 1-->
+          <div class="carousel-item active">
+            <app-card-box
+              [cardBoxTitle]="'Before'"
+              [cardColor]="'red'"
+              [cardTextColor]="'txt-black'"
+            >
+              Worked on Improving website performance
+            </app-card-box>
+            <app-card-box
+              [cardBoxTitle]="'After'"
+              [cardColor]="'green'"
+              [cardTextColor]="'txt-black'"
+            >
+              <p>
+                Optimized website performance by implementing lazy loading and
+                code splitting, reducing load time by 40% and improving user
+                engagement metrics by 25%
+              </p>
+            </app-card-box>
+            <app-card-box
+              [cardBoxTitle]="'Why this work'"
+              [cardColor]="'black'"
+            >
+              <ul>
+                <li>
+                  ➝ Starts with a strong action verb ('Optimized') instead of
+                  weak 'Worked on'
+                </li>
+                <li>
+                  ➝ Specifies the technical solution (lazy loading, code
+                  splitting)
+                </li>
+                <li>
+                  ➝ Quantifies the impact with specific metrics (40% reduction,
+                  25% improvement)
+                </li>
+                <li>➝ Shows both technical and business impact</li>
+              </ul>
+            </app-card-box>
+          </div>
+
+          <!--Example 2-->
+          <div class="carousel-item">
+            <app-card-box
+              [cardBoxTitle]="'Before'"
+              [cardColor]="'red'"
+              [cardTextColor]="'txt-black'"
+            >
+              Worked on Improving website performance
+            </app-card-box>
+            <app-card-box
+              [cardBoxTitle]="'After'"
+              [cardColor]="'green'"
+              [cardTextColor]="'txt-black'"
+            >
+              Worked on Improving website performance
+            </app-card-box>
+            <app-card-box
+              [cardBoxTitle]="'Why this work'"
+              [cardColor]="'black'"
+            >
+              Worked on Improving website performance
+            </app-card-box>
+          </div>
+
+          <!--Example 3-->
+          <div class="carousel-item">
+            <app-card-box
+              [cardBoxTitle]="'Before'"
+              [cardColor]="'red'"
+              [cardTextColor]="'txt-black'"
+            >
+              Worked on Improving website performance
+            </app-card-box>
+            <app-card-box
+              [cardBoxTitle]="'After'"
+              [cardColor]="'green'"
+              [cardTextColor]="'txt-black'"
+            >
+              Worked on Improving website performance
+            </app-card-box>
+            <app-card-box
+              [cardBoxTitle]="'Why this work'"
+              [cardColor]="'black'"
+            >
+              Worked on Improving website performance
+            </app-card-box>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev black"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </app-card-box>
+  </section>
+
+  <!--Bullet mistake-->
+  <section>
+    <h2 class="section-title">⚠️ Top 3 Bullet Writing Mistakes</h2>
+
+    <!--Bullet 1-->
+    <app-card-box
+      [cardBoxTitle]="
+        '1. I downplayed my experience so I wouldn`t sound arrogant.'
+      "
+      [cardColor]="'white'"
+      [cardTextColor]="'txt-black'"
+    >
+      <p>
+        You're not writing a diary. You're writing a billboard for your value. I
+        did this for years. It's why I got ghosted.
+      </p>
+      <div class="quote">
+        My Story: I used to write "Helped with team projects" or "Learned xyz"
+        because I didn't want to take credit. Then I realized — if I don't own
+        my wins, who will?
+      </div>
+      <div class="hover-box" title="hover to read">
+        <span class="hover-icon">🔍</span>
+        <span class="hover-text">My Breakthrough Moment</span>
+        <span class="hover-label">(hover to read)</span>
+      </div>
+    </app-card-box>
+
+    <!--Bullet 2-->
+    <app-card-box
+      [cardBoxTitle]="
+        '2. I listed all my tasks and hoped the reader would ‘get it.'
+      "
+      [cardColor]="'white'"
+      [cardTextColor]="'txt-black'"
+    >
+      <p>
+        They won't. They're skimming. You're just one resume of hundreds. Make
+        it punch.
+      </p>
+      <div class="quote">
+        Every software engineer codes. Every salesman sells. Few drive tangible
+        outcomes. Such outcomes are your golden tickets to differentiate
+        yourself.
+      </div>
+      <div class="hover-box" title="hover to read">
+        <span class="hover-icon">🔍</span>
+        <span class="hover-text">My Breakthrough Moment</span>
+        <span class="hover-label">(hover to read)</span>
+      </div>
+    </app-card-box>
+
+    <!--Bullet 3-->
+    <app-card-box
+      [cardBoxTitle]="
+        '3. I just ordered my bullets haphazarddly/chronologically.'
+      "
+      [cardColor]="'white'"
+      [cardTextColor]="'txt-black'"
+    >
+      <p>
+        They won't. They're skimming. You're just one resume of hundreds. Make
+        it punch.
+      </p>
+      <div class="quote">
+        Woul you commit to watching a 30 minutes video with boring title and
+        thumbnail? Hook your reader. Put your grand slam bullet points at the
+        very top of roue expertise. The order of your bullet points metters.
+      </div>
+      <div class="hover-box" title="hover to read">
+        <span class="hover-icon">🔍</span>
+        <span class="hover-text">Don`t Repeat My Mistakes</span>
+        <span class="hover-label">(hover to read)</span>
+      </div>
+    </app-card-box>
+  </section>
+</app-page-layout>

@@ -1,0 +1,173 @@
+<app-page-layout
+  [title]="'Build Your Winning Resume'"
+  [subtitle]="
+    'Every job offer starts with a resume. Let`s build your unshakeable foundation.'
+  "
+  [nextLink]="'/writte-bullets'"
+>
+  <app-quote-box [author]="'Jim'">
+    <em>"My experience wasn’t the problem. The way I framed it was.</em
+    ><br /><br />
+    If you're here, you're already the type of person who takes initiative.
+    You’re not the bottleneck. The bottleneck is how you're presenting the value
+    you already have.<br /><br />
+    Our goal together in these modules is to make hiring managers see you not as
+    just another resume in the pile, but as
+    <strong>someone they NEED on their team.</strong><br /><br />
+    Let’s get started."
+  </app-quote-box>
+
+  <p class="note">
+    <em>
+      Did you know? Apple designs and tests its product boxes to open at just
+      the right speed? The highest market cap company in the world. Hundreds of
+      millions poured into researching and designing packaging that is simply
+      thrown away. Framing is everything.
+    </em>
+  </p>
+
+  <!--Section Template-->
+  <section>
+    <h2 class="section-title">Template Download</h2>
+
+    <!--Download 1-->
+    <app-card-download [icon]="'G'" [cardTitle]="'Gooogle Docs (Make a copy)'">
+      <div class="desc">
+        This is a simplified version of the template. Perfect for getting
+        started quickly.
+      </div>
+      <a href="#" class="open">Open</a>
+    </app-card-download>
+
+    <!--Download 2-->
+    <app-card-download [icon]="'🅱️'" [cardTitle]="'LaTeX Source (Overleaf)'">
+      <div class="desc">
+        This is the exact template I used, with precise typography and spacing.
+        If you care about fine-grained control at the cost of some learning
+        curve, this is for you.
+      </div>
+      <a href="#" class="open">Open</a>
+    </app-card-download>
+
+    <!--Download 3-->
+    <app-card-download [icon]="'🅿️'" [cardTitle]="'Gooogle Docs (Make a copy)'">
+      <div class="info">
+        <div class="title">PDF Version</div>
+        <div class="desc">Download</div>
+      </div>
+      <a href="#" class="open">Download</a>
+    </app-card-download>
+  </section>
+
+  <!--Adapting the Tamplate-->
+  <section>
+    <h2 class="section-title">Adapting the Template(Don`t Just Copy)</h2>
+    <p>
+      This is the exact layout I udes to leand 5 tech offers - but don`t just
+      copy it blindly. Tailor it to you.
+    </p>
+    <p>
+      We`ll go over basic structure here, then get into bullets in the next
+      section
+    </p>
+
+    <!-- Expandable 1 -->
+    <details class="cardExpandable">
+      <summary>
+        📜 <strong>Start Here: Universal Resume Principles</strong>
+      </summary>
+      <div class="content">
+        <p>
+          These 3 rules apply whether you're a new grad, senior dev, or career
+          switcher. If you skip this foundation, nothing else will save your
+          resume.
+        </p>
+        <ol>
+          <li>
+            <strong>Keep your header clean.</strong> Use a simple,
+            <strong>professional email</strong> (like firstname lastname email).
+            Include your phone number. Recommend: Include LinkedIn or portfolio
+            site.
+          </li>
+          <li>
+            <strong>Ensure it is ATS-safe.</strong> Some say companies use
+            software to auto-reject resumes that don't parse cleanly. Verdict is
+            out on if this is actually true but better safe than sorry. This
+            template is verified to be ATS-safe.<br />
+            <small
+              >Test that your resume is ATS-safe with this
+              <a href="#">resume parsing tool</a>.</small
+            >
+          </li>
+          <li>
+            <strong>Lead with experience.</strong> Put your most recent and most
+            relevant role first — even if it's an internship. Recruiters scan
+            for experience first. If your best experience is at the bottom,
+            you're sabotaging yourself.
+          </li>
+          <li>
+            <strong>Skills section (optional).</strong> I personally recommend
+            having a skills section, primarily to help recruiters skim your
+            resume. However, don't go overboard. Quality over quantity.<br />
+            <small
+              >This is the only step I'd call optional. You can just interlace
+              skills in your experience bullets. Use your judgement.</small
+            >
+          </li>
+        </ol>
+      </div>
+    </details>
+
+    <!-- Expandable 2 -->
+    <details class="cardExpandable">
+      <summary>✅ <strong> Have Experience? Start Here First</strong></summary>
+      <div class="content">
+        <p>
+          These 3 rules apply whether you're a new grad, senior dev, or career
+          switcher. If you skip this foundation, nothing else will save your
+          resume.
+        </p>
+      </div>
+    </details>
+
+    <!-- Expandable 3 -->
+    <details class="cardExpandable">
+      <summary>
+        🧭 <strong>Switching Careers? Here's How to Frame It</strong>
+      </summary>
+      <div class="content">
+        <p>
+          These 3 rules apply whether you're a new grad, senior dev, or career
+          switcher. If you skip this foundation, nothing else will save your
+          resume.
+        </p>
+      </div>
+    </details>
+
+    <!-- Expandable 4 -->
+    <details class="cardExpandable">
+      <summary>
+        🚀 <strong> No Work Experience? Build From Projects</strong>
+      </summary>
+      <div class="content">
+        <p>
+          These 3 rules apply whether you're a new grad, senior dev, or career
+          switcher. If you skip this foundation, nothing else will save your
+          resume.
+        </p>
+      </div>
+    </details>
+
+    <!-- Expandable 5 -->
+    <details class="cardExpandable">
+      <summary>❓ <strong> Length? Summary? GPA? Projects?</strong></summary>
+      <div class="content">
+        <p>
+          These 3 rules apply whether you're a new grad, senior dev, or career
+          switcher. If you skip this foundation, nothing else will save your
+          resume.
+        </p>
+      </div>
+    </details>
+  </section>
+</app-page-layout>

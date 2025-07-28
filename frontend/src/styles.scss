@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  font-family: "Inter", sans-serif;
+  background: #f9f9fb;
+  color: #1a1a1a;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+}
+
+//card-colors
+.purple {
+  background-color: #eae4ff;
+  color: #4b2991;
+}
+
+.red {
+  background-color: #fef2f2;
+  color: #ef4444;
+}
+
+.green {
+  background-color: #ecfdf5;
+  color: #10b981;
+}
+
+.white {
+  background-color: #ffff;
+  color: #d97706;
+}
+
+.black {
+  background-color: #ffff;
+  color: #333;
+}
+
+.txt-black {
+  color: #333;
+}
+
+//blockquote
+blockquote {
+  background-color: #f0f4f8;
+  padding: 0.7rem;
+  border-left: 3px solid #cbd5e0;
+  font-style: italic;
+  border-radius: 8px;
+  font-size: 0.92rem;
+  color: #374151;
+}
+
+//blockquote
+.hover-box {
+  background-color: #fff5d6;
+  border-radius: 8px;
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  color: #7a3e00;
+  font-size: 0.9rem;
+  justify-content: space-between;
+
+  .hover-icon {
+    font-size: 1rem;
+  }
+
+  .hover-text {
+    font-weight: 600;
+  }
+
+  .hover-label {
+    font-size: 0.8rem;
+    color: #b45309;
+  }
+}

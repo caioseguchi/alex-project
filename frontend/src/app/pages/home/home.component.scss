@@ -1,0 +1,94 @@
+.container {
+  max-width: 960px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  position: relative;
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.card h2 {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.card a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  background: #10b981;
+  color: white;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+/* Color Variants */
+.card-green {
+  background-color: #ecfdf5;
+}
+.card-yellow {
+  background-color: #fff7ed;
+}
+.card-purple {
+  background-color: #f5f3ff;
+}
+.card-blue {
+  background-color: #eff6ff;
+}
+.card-pink {
+  background-color: #fef2f2;
+}
+
+/* Badge Color Variants */
+.badge.orange {
+  background-color: #f97316;
+}
+.badge.purple {
+  background-color: #8b5cf6;
+}
+.badge.blue {
+  background-color: #3b82f6;
+}
+.badge.red {
+  background-color: #ef4444;
+}
+
+.card a {
+  color: inherit;
+  font-weight: bold;
+}
